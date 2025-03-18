@@ -6,7 +6,7 @@ package calculator;
 
 /**
  *
- * @author Siphesihle Masuku
+ * @author Joshu
  */
 public class Calculator {
 
@@ -19,8 +19,8 @@ public class Calculator {
         double num2;
         double sum;
         double sub;
-        double Mult;
-        double Div;
+        double prod;
+        double div;
         
         
         num1 = 36;
@@ -28,19 +28,19 @@ public class Calculator {
         
         
         sum = num1 + num2;
-         Mult = num1 * num2;
-         Div = num1 / num2;
-         sub = num1 - num2;
+        prod = num1 * num2;
+        div = num1 / num2;
+        sub = num1 - num2;
          
         
         
-        System.out.println("Addition:" +" "+ + num1  +" "+  "+"  +" "+ +  num2 +  "=" +" "+  + sum);
+        System.out.println("Addition: "+ num1 + " + " + num2 +  " = " + sum);
         
-         System.out.println("Subtraction:" +" "+ + num1  +" "+  "-"  +" "+ +  num2 +  "=" +" "+  + sub);
+        System.out.println("Subtraction: "+ num1 + " - " + num2 +  " = " + sub);
         
-          System.out.println("Multiplication:" +" "+ num1  +" "+ " x " +" "+ + num2 +" "+"=" +" "+ + Mult);
+        System.out.println("Multiplication :"+ num1 + " * " + num2 +  " = " + prod);
           
-            System.out.println("Division:" +" "+ num1  +" "+ "/" +" "+ num2 +" "+"=" +" "+ Div);
+        System.out.println("Division: "+ num1 + " / " + num2 +  " = " + div);
         // TODO code application logic here
     }
     
